@@ -2,7 +2,6 @@ import React from 'react';
 import {FaBars} from 'react-icons/fa'
 //mport { NavLink } from 'react-router-dom';
 import {Nav,NAvbarContainer, NavbarLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavbarElements';
-
 const Navbar = ({toggle}) => {
     return (
         <>

@@ -18,7 +18,8 @@ const FrontSection = () => {
                 <FrontH1>Invest in Cryptocurrencys easier than ever</FrontH1>
                 <FrontP> Check the most popular Cryptocurrencys</FrontP>
                 <FrontBTNWrapper>
-                    <Button to="Crypto" onMouseEnter={onHover} onMouseLeave={onHover}>Get started {hover ? <ArrowFoward /> : <ArrowRight />}</Button>
+                    <Button to="Crypto" onMouseEnter={onHover} onMouseLeave={onHover} primary= 'true' dark='true'>
+                    Get started {hover ? <ArrowFoward /> : <ArrowRight />}</Button>
 
                 </FrontBTNWrapper>
             </FrontContent>
