@@ -3,13 +3,13 @@ import {FaBars} from 'react-icons/fa'
 //mport { NavLink } from 'react-router-dom';
 import {Nav,NAvbarContainer, NavbarLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
                 <NAvbarContainer>
                     <NavbarLogo to='/'>C01N</NavbarLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick= {toggle}> 
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
@@ -17,17 +17,17 @@ const Navbar = () => {
                             <NavLinks to="About">About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="Crypto">Crypto</NavLinks>
+                            <NavLinks to="Services">Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="Services">Services</NavLinks>
+                            <NavLinks to="Sign In">Sign In</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="SignUp">Sign Up</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                        <NavBtnLink to='/Crypto'>Crypto</NavBtnLink>
                     </NavBtn>
                 </NAvbarContainer>
             </Nav>
