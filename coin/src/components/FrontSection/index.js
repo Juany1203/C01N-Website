@@ -15,7 +15,7 @@ const FrontSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </FrontBG>
             <FrontContent>
-                <FrontH1>Invest in Cryptocurrencys easier than ever</FrontH1>
+                <FrontH1>The number 1 cryptocurrencies investment broker for Costa Rica</FrontH1>
                 <FrontP> Check the most popular Cryptocurrencys</FrontP>
                 <FrontBTNWrapper>
                     <Button to="Crypto" onMouseEnter={onHover} onMouseLeave={onHover} primary= 'true' dark='true'>
