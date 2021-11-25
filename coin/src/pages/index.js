@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
-import Navbar from '../components/Navbar'
 import FrontSection from '../components/FrontSection'
 import InfoSection from '../components/InfoSection'
 import { homeObjectOne, homeObjectTwo, homeObjectThree, homeObjectFour } from '../components/InfoSection/data'
