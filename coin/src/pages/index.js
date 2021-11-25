@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import FrontSection from '../components/FrontSection'
 import InfoSection from '../components/InfoSection'
 import { homeObjectOne, homeObjectTwo, homeObjectThree, homeObjectFour } from '../components/InfoSection/data'
-
+import Footer from '../components/Footer'
+import '../App.css';
 const Home = () => {
 
 
@@ -17,12 +18,13 @@ const Home = () => {
     return (
         <>
             <Sidebar isOpen = {isOpen} toggle ={toggle}/>
-            <Navbar toggle ={toggle}/>
+
             <FrontSection/>
             <InfoSection {...homeObjectOne}/>
             <InfoSection {...homeObjectTwo}/>
             <InfoSection {...homeObjectThree}/>
             <InfoSection {...homeObjectFour}/>
+            <Footer/>
         </>
     )
 }

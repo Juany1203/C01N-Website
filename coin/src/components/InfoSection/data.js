@@ -9,7 +9,7 @@ export const homeObjectOne = {
     description: 'Get access to the first system of cryptocurrencies originated in the country. Our app allows you to trade unlimited transactions without fees',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: require('../../images/svg-3.svg').default,
+    img: require('../../images/svg-4.svg').default,
     alt: 'crypto1',
     dark: false,
     primary: true,
